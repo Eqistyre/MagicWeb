@@ -1,12 +1,11 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class = "no-js" lang = "">
   <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset = "utf-8">
+    <meta name = "description" content = "">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1">
     <title>MagicWeb</title>
-
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel = "apple-touch-icon" href = "apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- build:css styles/vendor.css -->
@@ -15,55 +14,59 @@
     <!-- endbuild -->
 
     <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel = "stylesheet" href = "styles/main.css">
     <!-- endbuild -->
-    
+
     <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <script src = "/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
   </head>
   <body>
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+    <div class = "container">
+      <div class = "header">
+        <ul class = "nav nav-pills pull-right">
+          <!-- desktop guide -->
+          <li class = "active hidden-xs"><a href="#">首页</a></li>
+          <li class = "hidden-xs"><a href = "#">产品介绍</a></li>
+          <li class = "hidden-xs"><a href = "#">游戏介绍</a></li>
+          <li class = "hidden-xs"><a href = "#">APP下载</a></li>
+          <li class = "hidden-xs"><a href = "#">麦吉论坛</a></li>
+          <li class = "hidden-xs"><a href = "#">关于我们</a></li>
+          <li class = "hidden-xs"><a href = "#">用户反馈</a></li>
+          <!-- mobile guide -->
+          <li role="presentation" class="dropdown visible-xs" type = "button">
+            <a class="dropdown-toggle glyphicon glyphicon-list" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            </a>
+            <ul class = "dropdown-menu dropdown-menu-right">
+              <li class = "active"><a href="#">首页</a></li>
+              <li><a href = "#">产品介绍</a></li>
+              <li><a href = "#">游戏介绍</a></li>
+              <li><a href = "#">APP下载</a></li>
+              <li><a href = "#">麦吉论坛</a></li>
+              <li><a href = "#">关于我们</a></li>
+              <li><a href = "#">用户反馈</a></li>
+            </ul>
+          </li>
+
         </ul>
-        <h3 class="text-muted">MagicWeb</h3>
+        <h3 class = "text-muted">MagicWeb</h3>
       </div>
 
-      <div class="jumbotron">
-        <h1>'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
-      </div>
-
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>HTML5 Boilerplate</h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-          
-          <h4>Sass</h4>
-          <p>Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.</p>
-          
-          <h4>Bootstrap</h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-          <h4>Modernizr</h4>
-          <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
-          
+      <!-- main container -->
+      <!-- <div class = "mainContainer">
+        <img src = "images/character.png" id = "mainCharacter" />
+        <div class = "content_container">
+          <div id="media_player">
+            <div id="m_content"><img src="/images/u72.png" /></div>
+            <div id="m_play"><a href="">Play</a></div>
+          </div>
         </div>
-      </div>
+      </div> -->
 
-      <div class="footer">
-        <p>♥ from the Yeoman team</p>
-      </div>
-    </div>
-    
+
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -76,27 +79,27 @@
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src = "/bower_components/jquery/dist/jquery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
-    
+
     <!-- build:js scripts/plugins.js -->
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+    <script src = "/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+    <script src = "/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+    <script src = "/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src = "/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src = "/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+    <script src = "/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+    <script src = "/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+    <script src = "/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+    <script src = "/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src = "/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src = "/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src = "/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
     <!-- endbuild -->
-    
+
     <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
+    <script src = "scripts/main.js"></script>
     <!-- endbuild -->
   </body>
 </html>
