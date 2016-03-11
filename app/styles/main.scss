@@ -17,7 +17,7 @@ li {
 
 /* Space out content a bit */
 body {
-  padding-top: 20px;
+  padding-top: 0px;
   padding-bottom: 20px;
 }
 
@@ -29,34 +29,61 @@ body {
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
-
-  /* Make the masthead heading the same height as the navigation */
-  h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    padding-bottom: 19px;
-  }
 }
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 1280px;
+    max-width: 768px;
+    width: 1440px;
   }
 
   /* Remove the padding we set earlier */
   .header {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    width: 1440px;
+  }
+  /* Remove the padding we set earlier */
+  .header {
+    margin-bottom: 20px;
   }
 }
 
 /* Set up Id style */
-#mainCharacter{
+#mainCharacter {
     position: absolute;
     left: 0;
     bottom: -100px;
     left: -240px;
     z-index: 9;
     width: 800px;
+}
+
+#downMenu {
+  min-width: 110px;
+}
+
+#guideMenu {
+  margin-top: 30px;
+}
+
+.guideMenuStyle {
+ background-color: rgb(50, 51, 52);
+ padding: 20px
+}
+
+.guideMenuWord {
+  font-family: inherit;
+  font-size: 19px;
+  color: white;
+}
+
+#dropDownMenu {
+
 }

@@ -1,5 +1,5 @@
 <!doctype html>
-<html class = "no-js" lang = "">
+<html class = "no-js" lang = "utf-8">
   <head>
     <meta charset = "utf-8">
     <meta name = "description" content = "">
@@ -27,20 +27,20 @@
     <![endif]-->
     <div class = "container">
       <div class = "header">
-        <ul class = "nav nav-pills pull-right">
+        <ul class = "nav nav-pills pull-right navbar-inverse" id = "guideMenu">
           <!-- desktop guide -->
-          <li class = "active hidden-xs"><a href="#">首页</a></li>
-          <li class = "hidden-xs"><a href = "#">产品介绍</a></li>
-          <li class = "hidden-xs"><a href = "#">游戏介绍</a></li>
-          <li class = "hidden-xs"><a href = "#">APP下载</a></li>
-          <li class = "hidden-xs"><a href = "#">麦吉论坛</a></li>
-          <li class = "hidden-xs"><a href = "#">关于我们</a></li>
-          <li class = "hidden-xs"><a href = "#">用户反馈</a></li>
+          <li class = "hidden-xs guideMenuStyle visible-lg"><a href = "#" class = "guideMenuWord">首页</a></li>
+          <li class = "guideMenuStyle visible-lg"><a href = "#" class = "guideMenuWord">产品介绍</a></li>
+          <li class = "guideMenuStyle visible-lg"><a href = "#" class = "guideMenuWord">游戏介绍</a></li>
+          <li class = "guideMenuStyle visible-lg"><a href = "#" class = "guideMenuWord">APP下载</a></li>
+          <li class = "guideMenuStyle visible-lg"><a href = "#" class = "guideMenuWord">麦吉论坛</a></li>
+          <li class = "guideMenuStyle visible-lg"><a href = "#" class = "guideMenuWord">关于我们</a></li>
+          <li class = "guideMenuStyle visible-lg"><a href = "#" class = "guideMenuWord">用户反馈</a></li>
           <!-- mobile guide -->
-          <li role="presentation" class="dropdown visible-xs" type = "button">
-            <a class="dropdown-toggle glyphicon glyphicon-list" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+          <li role="presentation" class="dropdown hidden-lg" type = "button">
+            <a class="dropdown-toggle glyphicon glyphicon-list" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" id = "dropDownMenu">
             </a>
-            <ul class = "dropdown-menu dropdown-menu-right">
+            <ul class = "dropdown-menu dropdown-menu-right" id = "downMenu">
               <li class = "active"><a href="#">首页</a></li>
               <li><a href = "#">产品介绍</a></li>
               <li><a href = "#">游戏介绍</a></li>
@@ -50,9 +50,8 @@
               <li><a href = "#">用户反馈</a></li>
             </ul>
           </li>
-
         </ul>
-        <h3 class = "text-muted">MagicWeb</h3>
+        <img src = "images/logo_u4.png" id = "dropDownMenuImg">
       </div>
 
       <!-- main container -->
