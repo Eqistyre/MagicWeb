@@ -40,5 +40,8 @@
         "single"
       ]
     }
+  },
+  "dependencies": {
+    "gulp-minify-css": "^1.2.4"
   }
 }
